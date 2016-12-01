@@ -18,12 +18,8 @@ public class CommandFnit implements CommandExecutor {
             // Create a new ItemStack (type: diamond)
             ItemStack diamond = new ItemStack(Material.DIAMOND, 64);
 
-            // Set the amount of the ItemStack
-            //bricks.setAmount(20);
-
             // Give the player our items (comma-seperated list of all ItemStack)
             player.getInventory().addItem(diamond);
-            player.giveExp(1000000000);
         }
 
        // If the player (or console) uses our command correct, we can return true
