@@ -1,0 +1,8 @@
+name: MyFirstPlugin
+version: 1
+author: TaikiFnit
+main: jp.taikifnit.myfirstplugin.Main
+commands:
+  fnit:
+    description: "Get many Diamonds!"
+    usage: /fnit

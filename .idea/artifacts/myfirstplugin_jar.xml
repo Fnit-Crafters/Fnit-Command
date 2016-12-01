@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="myfirstplugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/myfirstplugin_jar</output-path>
+    <root id="archive" name="myfirstplugin.jar">
+      <element id="module-output" name="myfirstplugin" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/spigot-api-1.10.2-R0.1-20161012.085000-80.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
