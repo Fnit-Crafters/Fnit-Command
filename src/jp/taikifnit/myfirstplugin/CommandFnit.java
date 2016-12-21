@@ -9,14 +9,14 @@ import org.bukkit.Material;
 
 public class CommandFnit implements CommandExecutor {
 
-    @Override
+    //@Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
             // Create a new ItemStack (type: diamond)
-            ItemStack diamond = new ItemStack(Material.DIAMOND, 64);
+            ItemStack[] diamond = {new ItemStack(Material.DIAMOND, 1)};
 
             // Give the player our items (comma-seperated list of all ItemStack)
             player.getInventory().addItem(diamond);
